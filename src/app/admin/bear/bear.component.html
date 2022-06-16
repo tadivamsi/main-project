@@ -1,0 +1,64 @@
+<!-- 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Welcome to  main page </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="navbar-brand" href="#"  style="margin-left : 50px" routerLink="/randomusers">Random Users </a>
+      <a class="navbar-brand" href="#"  style="margin-left : 30px" routerLink="/cofee">Coffee</a>
+      <a class="navbar-brand" href="#"  style="margin-left : 30px" routerLink="/bear">Beer</a>
+      <a class="navbar-brand"  style="margin-left :300px"  routerLink="/logout">logout</a>
+   
+    </div>
+  </div>
+</nav>  -->
+<app-admin></app-admin>
+<h1 style="text-align:center">Welcome to Beer Profile</h1>
+<div class="container rounded bg-lite mt-5 mb-5" id="background" >
+
+  <div class="row" >
+      <div class="col-md-4 border-right">
+          <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+
+            <span class="font-weight-bold"></span>
+            <span class="text-dark-50"></span>
+            <span> </span></div>
+
+
+      </div>
+      <div class="col-md-5 border-right">
+          <div class="p-3 py-5">
+            <form >
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <a class="text-right" style="color:blue;" routerLink="/admin" routerLinkActive="router-link-active" >Back to Home </a>
+         
+              </div>
+
+              <div class="row mt-2">
+                  <div class="col-md-6"><label class="labels" style="color:cornsilk;"> id</label><input type="text" class="form-control"></div>
+                  <div class="col-md-6"><label class="labels" style="color:cornsilk;"> brand </label><input type="text" class="form-control" ></div>
+              </div>
+              <div class="row mt-3">
+                  <div class="col-md-12"><label class="labels" style="color:cornsilk;">style</label><input type="text" class="form-control" ></div>
+                  <div class="col-md-12"><label class="labels" style="color:cornsilk;">hop</label><input type="text" class="form-control"></div>
+                  <div class="col-md-12"><label class="labels" style="color:cornsilk;">yeast</label><input type="text" class="form-control"></div>
+                  <div class="col-md-12"><label class="labels" style="color:cornsilk;">malts </label><input type="text" class="form-control"  ></div>
+                  <div class="col-md-12"><label class="labels" style="color:cornsilk;">ibu</label><input type="text" class="form-control" ></div>
+                  <div class="col-md-12"><label class="labels" style="color:cornsilk;">alcohol</label><input type="text" class="form-control"  ></div>
+
+
+                  <div class="col-md-12"><label class="labels" style="color:cornsilk;">blg</label><input type="text" class="form-control"></div>
+  
+              </div>
+              <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button" routerLink="/admin" routerLinkActive="router-link-active"  >Save Deatils</button></div>
+             </form>
+
+
+      </div>
+
+      </div>
+  </div>
+
+</div>
